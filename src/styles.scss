@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/color-palette.scss";
+
+html {
+  background: $green-200;
+  background: linear-gradient(90deg, $green-200 0%, $green-300 100%);
+}

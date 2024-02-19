@@ -1,0 +1,12 @@
+@import "./../../../assets/color-palette.scss";
+
+:host {
+  .player-window {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    padding: 2rem;
+  }
+}
